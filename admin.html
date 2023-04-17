@@ -1,0 +1,101 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <h1>Admin Dashboard</h1>
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <button id="load-button">Load Data</button>
+    <script src="admin.js"></script>
+  </body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin Dashboard</title>
+    <style>
+      body {
+        background-color: #4c4040;
+        font-family: Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+      }
+
+      table {
+        margin: 0 auto;
+        /* border-collapse: collapse; */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        background-color: #c0c0c0;
+      }
+
+      th {
+        
+        background-color: #4CAF50;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        padding: 10px;
+      }
+
+      td {
+        padding: 10px;
+        text-align: left;
+        border-left: 1px solid #000000;
+        border-bottom: 1px solid black;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-top: 30px;
+      }
+
+      button:hover {
+        background-color: #3e8e41;
+      }
+      #data-table td:nth-child(2) {
+        padding-right: 50px;
+      }
+      #data-table td:nth-child(1) {
+        padding-right: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Admin Dashboard</h1>
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <button id="load-button">Load Data</button>
+    <div id="error-message"></div>
+    <script src="admin.js"></script>
+  </body>
+</html>
